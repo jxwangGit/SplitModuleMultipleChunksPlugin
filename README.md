@@ -6,17 +6,17 @@
 
 **  使用方式
     const SplitModuleMultipleChunksPlugin = require('SplitModuleMultipleChunksPlugin');
-     plugins: [
-        new SplitModuleMultipleChunksPlugin({
-          MultiTabs: {
-            name: 'MultiTabs',
-            test(mod) {
-              const basePath = 'components/common/MultiTabs/';
-              // 需要拆分的文件
-              const filterFileNames = ['index', 'MultiTabsContainer', 'multiTabsAutomaticGet', 'TabVisibilitySensor', 'formatThreeDimensionalMultiTab']
-              return filterFileNames.some(fileName => mod?.resource?.includes(`${basePath}${fileName}`));
-            },
-            chunks: ['h5-MultiTabs', 'online-MultiTabs'] // 需要拆分到对应的chunk
-          }
-        })
-     ]
+     plugins: [  
+        new SplitModuleMultipleChunksPlugin({  
+          MultiTabs: {  
+            name: 'MultiTabs',  
+            test(mod) {  
+              const basePath = 'components/common/MultiTabs/';  
+              // 需要拆分的文件  
+              const filterFileNames = ['index', 'MultiTabsContainer',   'multiTabsAutomaticGet', 'TabVisibilitySensor',   'formatThreeDimensionalMultiTab']  
+              return filterFileNames.some(fileName => mod?.resource?.includes(`${basePath}${fileName}`));  
+            },  
+            chunks: ['h5-MultiTabs', 'online-MultiTabs'] // 需要拆分到对应的chunk  
+          }  
+        })  
+     ]  
