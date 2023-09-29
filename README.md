@@ -5,7 +5,7 @@
 ** 所以这里 SplitModuleMultipleChunksPlugin 提供的功能就是将一个文件拆分到不同的 chunk  中, 这个在webpack 现有的解决方案中是没有的。
 
 **  使用方式
-    const SplitModuleMultipleChunksPlugin = require('SplitModuleMultipleChunksPlugin');
+    const SplitModuleMultipleChunksPlugin = require('split-module-multiple-chunks-plugin');
      plugins: [  
         new SplitModuleMultipleChunksPlugin({  
           MultiTabs: {  

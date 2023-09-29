@@ -1,5 +1,5 @@
 {
-  "name": "SplitModuleMultipleChunksPlugin",
+  "name": "split-module-multiple-chunks-plugin",
   "version": "0.0.1",
   "description": "Split files into different packages",
   "main": "lib/index.js",
