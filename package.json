@@ -1,0 +1,14 @@
+{
+  "name": "SplitModuleMultipleChunksPlugin",
+  "version": "0.0.1",
+  "description": "Split files into different packages",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "keywords": [],
+  "author": "jiaxianwang",
+  "license": "ISC",
+  "repository": "jxwangGit/SplitModuleMultipleChunksPlugin",
+  "homepage": "https://github.com/jxwangGit/SplitModuleMultipleChunksPlugin"
+}
